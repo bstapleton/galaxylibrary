@@ -73,7 +73,7 @@ namespace GalaxyLibrary
          * Bayer designation for star system naming, utilising Greek alphabet, then uppercase English alphabet
          * characters, and finally lowercase English alphabet characters.
          */
-        public static IEnumerable<string> BayerDesignationList()
+        public static IList<string> BayerDesignationList()
         {
             Collection<string> designationList = new Collection<string>();
             
